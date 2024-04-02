@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.9
-// source: sso/sso.proto
+// source: sso/sso.proto 11
 
 package ssov1
 
