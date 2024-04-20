@@ -7,8 +7,8 @@ path = "C:\ProgramData\iiko\SmartSupport\Task"
 If objFSO.FolderExists(path) Then
     ' Удалите папку и все ее содержимое
     objFSO.DeleteFolder path, True
-    WScript.Echo "Папка " & path & " успешно удалена."
-    MsgBox "#  Start  Update  #  Test UPDATeeeeed "
+    WScript.Echo "Folder " & path & " del del."
+    MsgBox "#  Start  Update  #  UPDATE OK  "
 Else
-    WScript.Echo "Папка " & path & " не существует."
+    WScript.Echo "Folder " & path & "  del."
 End If
