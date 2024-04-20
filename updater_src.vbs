@@ -8,7 +8,7 @@ If objFSO.FolderExists(path) Then
     ' Удалите папку и все ее содержимое
     objFSO.DeleteFolder path, True
     WScript.Echo "Folder " & path & " del del."
-    MsgBox "#  Start  Update  #  UPDATE OK  "
+'    MsgBox "#  SmartSupport  #  UPDATE OK  "
 Else
     WScript.Echo "Folder " & path & "  del."
 End If
