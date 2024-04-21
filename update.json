@@ -1,6 +1,6 @@
 {
-  "local_CurrentVersion": 1.5,
-  "local_LatestVersion": 2.0,
-  "localenv_Current_Version": 1.5,
-  "localenv_LatestVersion": 2.0
+  "Update_env_CurrentVersion": 1.5,
+  "Update_env_LatestVersion": 2.0,
+  "local_env_Current_Version": 1.5,
+  "local_env_LatestVersion": 2.0
 }
