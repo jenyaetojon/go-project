@@ -1,4 +1,6 @@
 {
-  "CurrentVersion": 1.5,
-  "LatestVersion": 2.0
+  "local_CurrentVersion": 1.5,
+  "local_LatestVersion": 2.0,
+  "localenv_Current_Version": 1.5,
+  "localenv_LatestVersion": 2.0
 }
