@@ -23,7 +23,7 @@ End If
 
 
 
-WScript.Sleep(30000)
+WScript.Sleep(300)
 
   Next
 
