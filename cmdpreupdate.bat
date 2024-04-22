@@ -1,9 +1,5 @@
 @echo off
-
-:: Проверка и удаление папки, если она существует
-if exist "C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\Resto.Front.Api.SmartSupportV7" (
-    rd /s /q "C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\Resto.Front.Api.SmartSupportV7"
-)
+echo Start update 
 
 :: Блокировка запуска процесса iikoFront.Net.exe
 :loop
@@ -14,6 +10,11 @@ if errorlevel 1 (
     echo Процесс iikoFront.Net.exe найден, ждем его завершения.
     timeout /t 5
     goto loop
+)
+
+:: Проверка и удаление папки, если она существует
+if exist "C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\Resto.Front.Api.SmartSupportV7" (
+    rd /s /q "C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\Resto.Front.Api.SmartSupportV7"
 )
 
 :: Копирование папки
