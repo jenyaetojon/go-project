@@ -2,6 +2,9 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 ' Укажите путь к папке, которую нужно удалить
 path = "C:\ProgramData\iiko\SmartSupport\Task"
+MsgBox "# +++  Smart Support Start Sleep(45000)  #  Start   "
+WScript.Sleep(45000)
+MsgBox "# +++  Smart Support (45000)  #  +++ Start OK +++ "
 
 Dim lngI, objArgs
 strComputer = "."
