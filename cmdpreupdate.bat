@@ -1,7 +1,4 @@
 @echo off
-chcp 65001
-echo It`s working
-
 echo Start update 
 
 :: Блокировка запуска процесса iikoFront.Net.exe
