@@ -5,9 +5,9 @@ echo Start update
 :loop
 tasklist | find /i "iikoFront.Net.exe" >nul 2>&1
 if errorlevel 1 (
-    echo Процесс iikoFront.Net.exe не найден, продолжаем работу.
+    echo  iikoFront.Net.exe not wound, work.
 ) else (
-    echo Процесс iikoFront.Net.exe найден, ждем его завершения.
+    echo  iikoFront.Net.exe found, kill precess.
     timeout /t 1
     goto loop
 )
@@ -28,4 +28,4 @@ start "" /B "C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.Net.exe"
 
 echo Update completed.
 
-pause
+exit
