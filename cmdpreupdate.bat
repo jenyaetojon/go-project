@@ -1,8 +1,7 @@
 @echo off
 echo Start update
 
-:: Запуск iikoFront.Net.exe
-start "" /B "C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.Net.exe"
+
 
 :: Блокировка запуска процесса iikoFront.Net.exe
 :loop
@@ -38,7 +37,10 @@ if exist "C:\ProgramData\iiko\SmartSupport\Resto.Front.Api.SmartSupportV7" (
 
 
 echo Update completed.
-timeout /t 5
+:: Запуск iikoFront.Net.exe
+start "" /B "C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.Net.exe"
+echo iikoFront.Net.exe
+timeout /t 1
 pause
 
 exit
