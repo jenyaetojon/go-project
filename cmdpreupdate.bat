@@ -41,6 +41,5 @@ echo Update completed.
 start "" /B "C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.Net.exe"
 echo iikoFront.Net.exe
 timeout /t 1
-pause
 
 exit
